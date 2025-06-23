@@ -3,7 +3,7 @@ import requests
 BASE_URL = "http://localhost:8081"
 
 login_data = {
-    "User_mail": "ascorread",
+    "User_mail": "ascorread1",
     "password": "1234"
 }
 
@@ -17,7 +17,7 @@ print("Token obtenido:", token)
 
 # User to follow
 data_follow = {
-    "id_following": 12  # id
+    "id_following": 15  # id
 }
 
 headers = {
